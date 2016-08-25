@@ -1,5 +1,5 @@
 require 'formula'
-class audiotools < Formula
+class Audiotools < Formula
   desc ""
   homepage ""
   url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.01.zip"
