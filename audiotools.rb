@@ -1,3 +1,4 @@
+require 'formula'
 class audiotools < Formula
   desc ""
   homepage ""
