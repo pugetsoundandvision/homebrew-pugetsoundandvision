@@ -1,9 +1,8 @@
 class audiotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/privatezero/uwmediatools/archive/1.3.7.zip"
-  version "1.3.7"
-  sha256 "1c330363e8fa94f1a7f840e9804ba497007225f753db707133ece67487175bb6"
+  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.01.zip"
+  sha256 "f16d76dd62f3ab212612be311bc53b0647059f74e17875e1a7dd70cf89f86bbf"
   
   depends_on "ffmpeg" => [ 'with-ffplay', 'with-libass', 'with-freetype', 'with-faac' ]
   depends_on 'cask'
@@ -18,6 +17,5 @@ class audiotools < Formula
   def install
     bin.install 'uwmetaedit'
     bin.install 'audioaip'
-   
   end
 end
