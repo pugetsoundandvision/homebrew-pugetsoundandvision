@@ -12,7 +12,7 @@ class Audiotools < Formula
   depends_on 'flac'
   depends_on 'md5deep'
   depends_on 'imagesnap'
-  depends_on 'cask textmate'
+  depends_on 'caskroom/cask/textmate'
 
 
  
