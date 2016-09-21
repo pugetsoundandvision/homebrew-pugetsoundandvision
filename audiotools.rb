@@ -2,8 +2,8 @@ require 'formula'
 class Audiotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.04.zip"
-  sha256 "dc6f93d7a9c83acdfca9e5b6235f298f13bf00aecd3e50de3b8f022fd8c7f67a"
+  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.05.zip"
+  sha256 "c02f66f51b75d093f10b8428ce2c7d1fb12660f7523da875ebde4ad6f1f33434"
   
   depends_on "ffmpeg" => [ 'with-ffplay', 'with-libass', 'with-freetype', 'with-faac' ]
   depends_on 'cask'
