@@ -4,6 +4,7 @@ class Audiotools < Formula
   homepage ""
   url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.06.zip"
   sha256 "accc955f0ffdc7f44a18042e0cba730b8bb4a881e7ba619e3c4614d7f234320e"
+  revision 1
   
   depends_on "ffmpeg" => [ 'with-sdl2', 'with-libass', 'with-freetype', 'with-faac' ]
   depends_on 'cask'
