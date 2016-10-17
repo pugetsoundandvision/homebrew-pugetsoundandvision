@@ -6,7 +6,7 @@ class Audiotools < Formula
   sha256 "accc955f0ffdc7f44a18042e0cba730b8bb4a881e7ba619e3c4614d7f234320e"
   revision 1
   
-  depends_on "ffmpeg" => [ 'with-sdl2', 'with-libass', 'with-freetype', 'with-faac' ]
+  depends_on "ffmpeg" => [ 'with-sdl', 'with-libass', 'with-freetype', 'with-faac' ]
   depends_on 'cask'
   depends_on 'mediainfo'
   depends_on 'bagit'
