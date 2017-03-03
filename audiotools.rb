@@ -4,6 +4,7 @@ class Audiotools < Formula
   homepage ""
   url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.11.tar.gz"
   sha256 "97b0791f09e2b2a69487f0801d88259742734fd6e3c9edd96abe18cdec25b9c2"
+  revision 1
   
   depends_on "sdl"
   depends_on "ffmpeg" => [ 'with-sdl2', 'with-freetype']
@@ -19,6 +20,6 @@ class Audiotools < Formula
   def install
     bin.install 'uwmetaedit'
     bin.install 'audioaip'
-    bin.instal 'verifychecksums'
+    bin.install 'verifychecksums'
   end
 end
