@@ -2,9 +2,8 @@ require 'formula'
 class Audiotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.0.11.tar.gz"
-  sha256 "97b0791f09e2b2a69487f0801d88259742734fd6e3c9edd96abe18cdec25b9c2"
-  revision 1
+  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.1.00.tar.gz"
+  sha256 "eb11a6e1195e33546cd6d715942ee2a3f9b49c81b987b51eec437bb4755f2a5b"
   
   depends_on "sdl"
   depends_on "ffmpeg" => [ 'with-sdl2', 'with-freetype']
