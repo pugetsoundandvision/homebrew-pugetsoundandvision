@@ -20,5 +20,24 @@ class Audiotools < Formula
     bin.install 'uwmetaedit'
     bin.install 'audioaip'
     bin.install 'verifychecksums'
+      if File.exist? File.expand_path '/usr/local/bin/bwfmetaedit'
+         puts 'BWF Metaedit confirmed'
+      else
+         bin.install 'bwfmetaedit'
+      end
+  end
+  
+  def post_install;
+      puts "Checking for dependency Textmate. If Textmate is not found will attempt to install"
+      if File.exist? File.expand_path '/Applications/TextMate.app'
+        puts 'TextMate was found'
+      else
+        if `brew cask ls --versions textmate 2>&1 | head -n1`.include? 'Warning: textmate is not installed'
+            puts 'Attempting to install Textmate'
+            system `echo 'brew install Caskroom/cask/textmate > /dev/null'`
+        else
+          puts 'Textmate was found'
+        end
+      end
   end
 end
