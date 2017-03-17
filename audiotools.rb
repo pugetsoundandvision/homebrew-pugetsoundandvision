@@ -8,7 +8,7 @@ class Audiotools < Formula
   revision 3
 
   depends_on "sdl"
-  depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "--with-fdk-aac"]
+  depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
   depends_on "cask"
   depends_on "mediainfo"
   depends_on "bagit"
