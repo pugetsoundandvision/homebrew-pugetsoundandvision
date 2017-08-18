@@ -5,6 +5,7 @@ class Videotools < Formula
   url "https://github.com/pugetsoundandvision/videotools/archive/2017-09-15.tar.gz"
   sha256 "f0f80a83f3d54ce95897be06db6bf99d4c9c0ec5c0d0a57dd845e695dec8141e"
   head "https://github.com/pugetsoundandvision/videotools.git"
+  revision 1
 
   depends_on "sdl"
   depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
@@ -13,6 +14,7 @@ class Videotools < Formula
   depends_on "bagit"
   depends_on "md5deep"
   depends_on "mpv"
+  depends_on "dialog"
   
   def install
     bin.install "videoaip"
