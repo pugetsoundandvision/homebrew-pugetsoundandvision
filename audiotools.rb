@@ -2,8 +2,8 @@ require "formula"
 class Audiotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.2.03.tar.gz"
-  sha256 "fafde402f7cd6ea0951526de6c3c215ee90beba5c41db82b6245afbba5978bb0"
+  url "https://github.com/pugetsoundandvision/audiotools/archive/v0.2.04.tar.gz"
+  sha256 "7966406e25b93e8264e682275b8df2a83722fc9c208e5f1a30970e09235472eb"
   head "https://github.com/pugetsoundandvision/audiotools.git"
 
   depends_on "sdl"
