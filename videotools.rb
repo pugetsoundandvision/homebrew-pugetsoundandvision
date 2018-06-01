@@ -2,8 +2,8 @@ require "formula"
 class Videotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/videotools/archive/2018-03-08.tar.gz"
-  sha256 "f5936962f0c2f788beefd0d7895e5f3e6900f1e4812b08bb5a51a07bc9a8c0d2"
+  url "https://github.com/pugetsoundandvision/videotools/archive/2018-05-31.tar.gz"
+  sha256 "d39ea99269dbdee8b8f9fcd5185ea537610782e8e619645af266dd9fcfc4421c"
   head "https://github.com/pugetsoundandvision/videotools.git"
 
   depends_on "sdl"
