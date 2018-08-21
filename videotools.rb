@@ -3,8 +3,11 @@ class Videotools < Formula
   desc ""
   homepage ""
   url "https://github.com/pugetsoundandvision/videotools/archive/2018-08-21.tar.gz"
+  version "2018-08-21"
   sha256 "3d30fb1b2b5bd2e88a9c2bd9b6660d0a6f52c27e0ed3b317b6f5ad7dc0b82592"
   head "https://github.com/pugetsoundandvision/videotools.git"
+  
+  revision 1
 
   depends_on "sdl"
   depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
