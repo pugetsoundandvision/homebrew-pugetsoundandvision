@@ -3,8 +3,8 @@ class Videotools < Formula
   desc ""
   homepage ""
   url "https://github.com/pugetsoundandvision/videotools/archive/2018-08-23.tar.gz"
-  version "2018-08-23"
-  sha256 "fb0d8c671f7b332c1ebeb9ac6fcb0362b753315acf3665ecd1c29901a9a71324"
+  version "2018-11-06"
+  sha256 "01a0aaf622ba6e1911dddaab63a0fc5146d6d8ca64c8111a3027007691550248"
   head "https://github.com/pugetsoundandvision/videotools.git"
   
   revision 1
