@@ -4,10 +4,10 @@ class Videotools < Formula
   homepage ""
   url "https://github.com/pugetsoundandvision/videotools/archive/2019-01-09.zip"
   version "2019-01-10"
-  sha256 "c2381e2de5914176278f2a210d1d7222ff2237187c1fce1afd414b3398448583"
+  sha256 "fd9d42d6e9626c660f9bc7e863874a67379177b60eb6a1c33d7c6188aa29f522"
   head "https://github.com/pugetsoundandvision/videotools.git"
 
-  revision 1
+  revision 2
   
   depends_on "sdl"
   depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
