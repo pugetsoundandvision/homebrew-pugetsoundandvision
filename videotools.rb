@@ -2,11 +2,13 @@ require "formula"
 class Videotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/videotools/archive/2019-01-10.tar.gz"
+  url "https://github.com/pugetsoundandvision/videotools/archive/2019-01-09.zip"
   version "2019-01-10"
   sha256 "c2381e2de5914176278f2a210d1d7222ff2237187c1fce1afd414b3398448583"
   head "https://github.com/pugetsoundandvision/videotools.git"
 
+  revision 1
+  
   depends_on "sdl"
   depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
   depends_on "cask"
