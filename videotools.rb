@@ -2,15 +2,14 @@ require "formula"
 class Videotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/videotools/archive/2019-01-09.zip"
-  version "2019-01-10"
-  sha256 "fd9d42d6e9626c660f9bc7e863874a67379177b60eb6a1c33d7c6188aa29f522"
+  url "https://github.com/pugetsoundandvision/videotools/archive/2019-02-14.zip"
+  version "2019-02-14"
+  sha256 "18a1a420e155481eb48f39e57ed8d6897faac180efb1fe9f36e9488b1e14158c"
   head "https://github.com/pugetsoundandvision/videotools.git"
 
-  revision 2
   
   depends_on "sdl"
-  depends_on "ffmpeg" => ["with-sdl2", "with-freetype", "with-opus", "with-fdk-aac"]
+  depends_on "ffmpeg"
   depends_on "cask"
   depends_on "mediainfo"
   depends_on "bagit"
