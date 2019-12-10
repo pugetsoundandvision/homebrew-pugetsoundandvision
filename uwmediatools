@@ -1,0 +1,18 @@
+Learn more or give us feedback
+require "formula"
+class Videotools < Formula
+  desc ""
+  homepage ""
+  url "https://github.com/pugetsoundandvision/uwmediascripts/archive/2019-12-10.tar.gz"
+  version "2019-12-10"
+  sha256 "4c544f6af84ca29f39f63abd5b31ef07b7bdafea51081bf859fe59a5691e8924"
+  head "https://github.com/pugetsoundandvision/uwmediascripts.git"
+
+  depends_on "ffmpeg"
+  depends_on "mediaconch"
+  depends_on "mediainfo"
+  
+  def install
+    bin.install "videoaip"
+  end
+end
