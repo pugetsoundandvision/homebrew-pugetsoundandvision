@@ -3,9 +3,9 @@ require "formula"
 class Videotools < Formula
   desc ""
   homepage ""
-  url "https://github.com/pugetsoundandvision/uwmediascripts/archive/2019-12-10.tar.gz"
-  version "2019-12-10"
-  sha256 "4c544f6af84ca29f39f63abd5b31ef07b7bdafea51081bf859fe59a5691e8924"
+  url "https://github.com/pugetsoundandvision/uwmediascripts/archive/2019-12-11.tar.gz"
+  version "2019-12-11"
+  sha256 "13520a842440a44831013735f94df6f98b4094b0557b9761bb781e9f5eca04ac"
   head "https://github.com/pugetsoundandvision/uwmediascripts.git"
 
   depends_on "ffmpeg"
@@ -13,6 +13,8 @@ class Videotools < Formula
   depends_on "mediainfo"
   
   def install
-    bin.install "videoaip"
+    bin.install "audioqc"
+    bin.install "uwmetaedit2"
+    bin.install "uwmethods.rb"
   end
 end
