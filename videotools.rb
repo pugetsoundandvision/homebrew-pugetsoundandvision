@@ -5,10 +5,11 @@ class Videotools < Formula
   url "https://github.com/pugetsoundandvision/videotools/archive/2021-01-05.tar.gz"
   version "2021-01-05"
   sha256 "6de0ba9a84f72ba1cbf79cdf49ab0a9b39e24ed1e140ee540c4a520df9431f95"
+  revision 1
   head "https://github.com/pugetsoundandvision/videotools.git"
 
   
-  depends_on "sdl"
+  depends_on "sdl2"
   depends_on "ffmpeg"
   depends_on "cask"
   depends_on "mediainfo"
